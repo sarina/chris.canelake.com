@@ -13,9 +13,13 @@ pp, ol, ul, li, dt, dd, blockquote {
 
 html, body {
   height: 100%;
-  background: #3fb2d1;
+  background: #33FF7A;
   max-width: 100%;
   margin: auto;
+}
+
+a {
+    color: #FF33FC;
 }
 
 /* header */
@@ -58,6 +62,12 @@ h1.clearfix, h2.clearfix {
 /* Content */
 .roadsign {
   border: 2px solid #fff7cb;
+  text-align: center;
+  font-size: 1.125em;
+  margin: 50px;
+}
+
+.content-body {
   text-align: center;
   font-size: 1.125em;
   margin: 50px;
